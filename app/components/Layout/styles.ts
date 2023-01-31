@@ -1,0 +1,1 @@
+export const styleCenter = 'h-full w-full bg-white pt-16';
