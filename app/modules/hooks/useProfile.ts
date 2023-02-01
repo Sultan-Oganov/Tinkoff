@@ -21,6 +21,7 @@ export const useProfile = () => {
                 ...(d.data() as Omit<IProfile, 'docId'>),
                 docId: d.id,
             }))[0];
+
             setProfile(profile);
             setName(profile?.displayName);
             setIsLoading(false);

@@ -3,11 +3,7 @@ export const COLORS = {
     black: '#000',
     primary: '#3b82f6',
     secondary: '#fbbf24',
-    // tertiary: '#85c6d8',
-    // gray: '#d1d5db',
-    // graylight: '#F3F4F6',
-    // graydark: '#3B5563',
-    // accent: '#fbcd77',
+    gray: '#d6d8db',
 };
 
 export const BOX_SHADOW = {
