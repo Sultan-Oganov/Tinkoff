@@ -4,6 +4,8 @@ export const COLORS = {
     primary: '#3b82f6',
     secondary: '#fbbf24',
     gray: '#d6d8db',
+    grayLight: '#e0e1e2',
+    grayDark: '#e1e1e1'
 };
 
 export const BOX_SHADOW = {
