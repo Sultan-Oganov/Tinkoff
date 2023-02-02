@@ -11,7 +11,7 @@ const Balance: FC<IBalance> = ({ account: { balance, currency, name } }) => {
     const tw = useTailwind();
 
     return (
-        <View style={tw('w-8/12')}>
+        <View style={tw('w-7/12')}>
             <Text style={{ fontSize: 15 }}>{name}</Text>
             <Text style={{
                 ...tw('font-bold'),

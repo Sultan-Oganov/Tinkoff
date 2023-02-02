@@ -28,8 +28,4 @@ export const useAccounts = () => {
     }, []);
 
     return { accounts, isLoading }
-
-
-
-
 };

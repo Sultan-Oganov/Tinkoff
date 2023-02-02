@@ -15,8 +15,8 @@ const Heading: FC<IHeading> = ({ text, isCenter = false, backBtn = false }) => {
 
     return (
         <Padding style={backBtn && tw('flex-row items-center relative')}>
-            <Goback style={'absolute left-2 z-10'} />
-            <Text style={tw(`text-2xl font-bold text-gray-800 justify-center w-full ${isCenter && 'text-center'}`)}>{text}</Text>
+            {backBtn && <Goback style={'absolute left-2 z-10'} />}
+            <Text style={tw(`text-2xl font-bold text-gray-800 justify-center w-full ${isCenter && 'text-center '} ${backBtn && 'ml-5'}`)}>{text}</Text>
         </Padding>
     );
 };
