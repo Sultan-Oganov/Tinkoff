@@ -4,6 +4,7 @@ import { TailwindProvider } from 'tailwind-rn';
 import utilities from './tailwind.json';
 import { DataProvider } from './app/modules/providers/DataProvider';
 import StoryContainer from './app/components/StoryContainer/StoryContainer';
+import { LogBox } from 'react-native';
 
 export default function App() {
   return (
@@ -17,3 +18,5 @@ export default function App() {
     </TailwindProvider>
   );
 }
+
+LogBox.ignoreAllLogs();
